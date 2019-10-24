@@ -154,7 +154,7 @@ data.model.vectorID = {'m','lc','I','Tb','d','dur','kF','kdF','q0','scale','Fs',
 data.model.vector = [data.model.m data.model.lc data.model.I data.model.Tb...
     data.model.d data.model.dur data.model.kF data.model.kdF data.model.q0...
     data.model.scale data.model.Fs data.model.k data.model.kSRS];
-data.model.lbounds = [0.1 0.1 0.1 0 0 1 0.00001 0.00001 -90 0.1 10 0 0];
+data.model.lbounds = [0.1 0.1 0.01 0 0 1 0.00001 0.00001 -90 0.1 10 0 0];
 data.model.ubounds = [10 2 2 10 3 20 3 1 10 2 1000 10 100];
 
 data.simulation.q = [];
